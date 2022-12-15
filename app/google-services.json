@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179833894291",
+    "project_id": "registro-149a2",
+    "storage_bucket": "registro-149a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179833894291:android:943d472750d36f1aeba466",
+        "android_client_info": {
+          "package_name": "com.registro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179833894291-g2gh500d6o17u9v3nc66vqoa8qq71s9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4elTzivUeeB3Cc_smlHZqP3CogpsyrgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179833894291-g2gh500d6o17u9v3nc66vqoa8qq71s9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
