@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/fragmentInicio">
+
+    <fragment
+        android:id="@+id/fragmentInicio"
+        android:name="com.registro.FragmentInicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_fragmentInicio_to_agregarFragment"
+            app:destination="@id/agregarFragment" />
+        <action
+            android:id="@+id/action_fragmentInicio_to_fragmentEBMateria"
+            app:destination="@id/fragmentEBMateria" />
+    </fragment>
+    <fragment
+        android:id="@+id/agregarFragment"
+        android:name="com.registro.AgregarFragment"
+        android:label="fragment_agregar"
+        tools:layout="@layout/fragment_agregar" />
+    <fragment
+        android:id="@+id/fragmentEBMateria"
+        android:name="com.registro.FragmentEBMateria"
+        android:label="fragment_e_b_materia"
+        tools:layout="@layout/fragment_e_b_materia" />
+</navigation>
